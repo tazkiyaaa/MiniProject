@@ -1,0 +1,26 @@
+footer {
+    background: var(--secondary-color);
+    color: var(--white);
+    height: 100%;
+
+.footer_content {
+    padding: 3rem;
+       
+    h5 {
+        color: var(--primary-color);
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    ul {
+        padding: 0.8rem 0;
+
+        li {
+            list-style: none;
+            cursor: pointer;
+        }
+    }
+}
+
+   
+}

@@ -1,0 +1,48 @@
+.header {
+    padding: 5px;
+    background: #ffffff;
+    width: 100%; 
+    height: 60%;
+    border-bottom: 1px solid #101010;
+}
+
+.header_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    margin-left: 5px;
+    color: black;
+  }
+  
+  .header_features {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+   /* Mendorong elemen ke kanan */
+}
+
+
+
+.header_features span, 
+.header_links span {
+    padding: 0 1rem;
+    font-size: 17px;
+    cursor: pointer;
+    color: black; /* Change text color to black */
+}
+
+.shop, 
+.logo, 
+.login, 
+.create-account {
+    text-decoration: none !important; 
+    color: black !important; /* Change text color to black */
+}
+
+/* Add a margin to create space between Log In and the shopping bag */
+.login {
+    margin-right: 10px;
+}

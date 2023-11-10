@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+:root {
+  --primary-color: #d5a796;
+  --secondary-color: #000;
+  --accent-color:#d9ccbc;
+  --white: #fefefe;
+  --black: #1f1f1f;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Alata', sans-serif !important;
+  background: var(--white) !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-weight: 400 !important;
+  color: #fff;
+}
+
+img {
+  object-fit: cover;
+}

@@ -1,0 +1,53 @@
+.hero {
+    background: url('../../assets/images/hero1.png') no-repeat center/cover;
+    object-fit: cover;
+    position: relative;
+    height: 80vh; /* Set height to 100 viewport height */
+    width: 100%;
+
+    .hero_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20rem 0 5rem 0;
+        height: 100%; /* Set height to 100% */
+        width: 100%;
+
+        h3 {
+            font-size: 3.5rem;
+            letter-spacing: 2px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        p {
+            color: #feefea;
+            font-size: 1.5rem;
+            letter-spacing: 2px;
+        }
+    }
+
+    .overlay {
+        background: rgba(105, 105, 105, 0.5);
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero_content {
+        padding: 5rem 0 2rem 0; /* Adjusted padding for smaller screens */
+
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            letter-spacing: 0;
+        }
+
+        p {
+            font-size: 1rem;
+            letter-spacing: 0;
+        }
+    }
+}
